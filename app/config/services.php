@@ -20,7 +20,7 @@ define('ROOT', rtrim($_SERVER['DOCUMENT_ROOT'],'/'));
 $di = new FactoryDefault();
 
 /**
- * Register events manager 
+ * Register events manager
  */
 $di->set('dispatcher', function() use ($di)
 {

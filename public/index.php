@@ -1,4 +1,6 @@
 <?php
+$debug = new \Phalcon\Debug();
+$debug->listen();
 error_reporting(E_ALL);
 
 try {
