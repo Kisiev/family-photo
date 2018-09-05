@@ -1,0 +1,9 @@
+# PHALCON
+/app/cache/
+!/app/cache/readme.md
+/public/upload/
+/element/
+/app/config/config.php
+vendor/
+app/logs/*
+!app/logs/README.md
