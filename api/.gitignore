@@ -5,5 +5,6 @@
 /element/
 /app/config/config.php
 vendor/
+composer.lock
 app/logs/*
 !app/logs/README.md
