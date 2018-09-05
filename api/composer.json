@@ -1,0 +1,12 @@
+{
+    "name": "root/api",
+    "authors": [
+        {
+            "name": "Kisiev",
+            "email": "kisivaleri@gmail.com"
+        }
+    ],
+    "require": {
+        "webonyx/graphql-php": "^0.12.6"
+    }
+}
