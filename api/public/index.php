@@ -21,6 +21,11 @@ try {
     include __DIR__ . "/../app/config/services.php";
 
     /**
+     * Composer
+     */
+    require_once __DIR__ . '/../vendor/autoload.php';
+
+    /**
      * Handle the request
      */
     $application = new \Phalcon\Mvc\Application($di);
